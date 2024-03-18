@@ -31,6 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
+=======
+    'pages.apps.PagesConfig',
+>>>>>>> 6b1996d (adding the url for index)
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 URL configuration for dlhp project.
 
@@ -20,3 +21,12 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+=======
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('', include('pages.urls')),
+    path('admin/', admin.site.urls),
+]  
+>>>>>>> 6b1996d (adding the url for index)
