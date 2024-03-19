@@ -67,8 +67,11 @@ WSGI_APPLICATION = 'dlhp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dlhpdb',
+        'USER': 'postgres',
+        'PASSWORD': 'jr134244a',
+        'HOST': 'localhost'
     }
 }
 
